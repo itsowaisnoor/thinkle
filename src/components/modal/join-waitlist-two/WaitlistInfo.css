@@ -1,0 +1,107 @@
+.join-waitlist .modal-dialog {
+    max-width: 1140px;
+}
+
+.join-waitlist .modal-content {
+    background: url(../../../../public/join-bg.png) no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+/* .modal-header .btn-close{
+    background: url(../../../../public/close-btn.svg) no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+    right: 18px;
+    top: 8px;
+} */
+
+
+.modal-header .btn-close:focus {
+    box-shadow: none !important;
+}
+
+
+.form-main h3 {
+    margin-bottom: 40px;
+}
+
+.u-info {
+    margin-bottom: 30px;
+}
+
+.u-info li {
+    margin-left: -20px;
+}
+
+
+
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+    .join-waitlist.wait-info .modal-content {
+        height: 720px;
+    }
+
+    .join-waitlist.wait-info .modal-body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-bottom: 120px !important;
+    }
+
+    .wait-info .form-main .follow-us {
+        position: absolute;
+        width: calc(100% - 48px);
+        bottom: 56px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    body .wait-info .form-main {
+        padding: 0 24px;
+    }
+
+    body .wait-info .form-main h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.05em;
+    }
+
+    form .form-control {
+        background: #231B18 !important;
+    }
+    body .form-main {
+        padding: 0 24px 70px;
+    }
+
+    body .follow-title span {
+        background: #502b0e29 !important;
+        top: 10.3px;
+    }
+
+    body .join-waitlist .modal-body {
+        padding-top: 82px !important;
+    }
+
+    body .modal-header .btn-close {
+        top: 28px;
+        right: 25px;
+    }
+
+    .form-main h2.text-36 {
+        margin-bottom: 20px;
+    }
+
+    .form-main .yellow-btn {
+        padding: 11.2px 20px;
+    }
+    .form-main .follow-us {
+        margin-top: 18px;
+    }
+    .form-main .follow-link li {
+        width: 32px;
+        height: 32px;
+    }
+}

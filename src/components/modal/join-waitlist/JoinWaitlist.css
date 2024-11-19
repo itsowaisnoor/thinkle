@@ -1,0 +1,70 @@
+.join-waitlist .modal-dialog {
+    max-width: 1140px;
+}
+
+.join-waitlist .modal-content {
+    background: url(../../../../public/join-bg.png) no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+    border: 0;
+}
+
+.modal-header {
+    padding: 0 !important;
+}
+.modal-header .btn-close {
+    position: absolute;
+    top: 33px;
+    right: 31px;
+    background: url(../../../../public/close-btn.svg) no-repeat;
+    background-size: cover;
+    opacity: 1;
+    z-index: 1;
+}
+
+.modal-header .btn-close:focus {
+    box-shadow: none !important;
+}
+
+
+.join-waitlist .modal-body .col-lg-6:first-child, .join-waitlist .modal-body .col-lg-6 .form-main{
+    padding-top: 90px !important;
+}
+.css-17q6pen-option{
+    padding: 10px 24px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #191919  inset !important;
+	-webkit-text-fill-color: #fff !important;
+    background-color: #191919;
+}
+
+input:is(:-webkit-autofill, :autofill) {
+    border-color: rgb(255 255 255 / 0%) !important;
+  }
+
+.error {
+    display: none;
+}
+
+.form-main .follow-link li:not(:last-child){
+    margin-right: 30px;
+}
+
+.form-control.error-input,
+.error-input .css-13cymwt-control,
+.error-input .css-t3ipsp-control {
+    border: 1px solid #FF000080 !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+
+body .css-1spih9m{
+    max-height: 300px !important;
+}

@@ -1,0 +1,984 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
+
+    .join-btn {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+    }
+
+    .offcanvas-header .navbar-brand {
+        height: auto !important;
+    }
+
+    body .navbar-brand {
+        height: 35px !important;
+        display: block;
+        width: 150px !important;
+    }
+
+    .menu-nav .f-12 {
+        font-size: 15px !important;
+        font-weight: 400;
+        line-height: 14.4px !important;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: .7;
+    }
+
+    @media all and (device-width: 1032px) and (device-height: 1376px) and (orientation:landscape) {
+        body .disc2-img {
+            padding: 0 !important;
+        }
+    }
+
+
+}
+
+@media(min-width: 1599.98px) {
+    .home-hero {
+        height: 1080px;
+    }
+    .real-box p.text-16.text-black.fw-300.text-truncate-3 {
+        height: 87px;
+    }
+    .landing-page .discovery-block{
+        background-size: 25%, cover !important;
+    }
+    .resource-page .sub-bnr {
+        height: calc(100vh - 98px) !important;
+        background-position: left bottom -220px !important;
+    }
+}
+
+@media(min-width: 1399.98px) {
+    /* .container {
+        max-width: 1240px !important;
+    } */
+
+    body .gy-lg-6 {
+        --bs-gutter-y: 36px !important;
+    }
+
+}
+
+@media(min-width: 1199.98px) {
+    .search-input.coach-search {
+        width: 500px;
+    }
+
+    .me-lg-8 {
+        margin-right: 19px;
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .hoding-content canvas {
+        width: 100%;
+    }
+    .disc2-img {
+        padding-right: 0 !important; 
+      } 
+
+}
+
+/* 
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+    body .container {
+        max-width: calc(100% - 150px) !important;
+    }
+} */
+
+@media(max-width: 991.98px) {
+    .guides-block .slick-list {
+        margin: 0 -10px;
+    }
+    .offcanvas-header {
+        padding: 21px 16px !important;
+    }
+
+    .about-page .text-black.f-64 {
+        letter-spacing: 0;
+    }
+
+    .f-88 {
+        line-height: 76px !important;
+        font-size: 66px !important;
+    }
+
+    body .f-64 {
+        line-height: 48px !important;
+        font-size: 40px !important;
+    }
+
+    body .f-20 {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 24px !important;
+        letter-spacing: -0.04em !important;
+    }
+
+    body .f-20 {
+        letter-spacing: -0.01em !important;
+    }
+
+    .f-36 {
+        font-size: 33px;
+        line-height: 38.4px;
+    }
+
+    .tag-btns {
+        gap: 10px;
+    }
+
+    .tag-btns li a {
+        font-size: 14px;
+        line-height: 16.8px;
+        letter-spacing: -0.005em;
+        padding: 14px 18px;
+        min-width: auto;
+    }
+
+    .white-block {
+        padding: 20px;
+    }
+
+    .yellow-block {
+        padding: 36px 20px;
+    }
+
+    .bg-blue {
+        padding: 54px 24px;
+    }
+
+    .my-6 {
+        margin: 70px 0;
+    }
+
+    .sub-hero {
+        padding: 0;
+    }
+
+    .sub-hero::after {
+        height: 610px;
+    }
+
+    .blog-details section {
+        margin: 70px 0;
+    }
+
+    .community-box {
+        height: 530px;
+    }
+
+    section {
+        margin: 72px 0;
+    }
+
+    section.our-values {
+        margin: 70px 0 150px;
+    }
+
+    a.join-btn {
+        font-size: 12px;
+        line-height: 14.4px;
+        letter-spacing: -0.005em;
+        min-width: 133px;
+        margin-right: 18px !important;
+        padding: 12px 0;
+    }
+
+    .our-mission .f-45 {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.05em;
+    }
+
+    .h-300 {
+        height: 360px !important;
+    }
+
+    .member-info,
+    .h-300 {
+        margin-bottom: 20px;
+    }
+
+    .slick-list {
+        padding: 10px 0 0;
+    }
+
+    body .slick-dots {
+        bottom: 15px;
+    }
+
+    /* body .slick-dots li {
+        margin: 0;
+        width: 16px;
+    } */
+
+    body .slick-dots li button:before {
+        font-size: 10px;
+    }
+
+    .grid-five {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 30px 20px;
+    }
+
+    .grid-five div:nth-child(7) {
+        grid-column: 1 / 1;
+    }
+
+    .our-values .slick-dots {
+        bottom: -58px;
+    }
+
+    .for-students .f-40 {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .f-40 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .explore-job .f-45 {
+        font-size: 40px;
+        line-height: 36px;
+        width: 300px;
+        margin: 20px auto 30px !important;
+    }
+
+    .our-mission {
+        min-height: 341px;
+    }
+
+    .our-mission.explore-job {
+        height: 576px;
+    }
+
+    .home-hero {
+        background-position: left center;
+        height: auto;
+        min-height: 585px;
+    }
+
+    .our-story .f-20 {
+        margin-bottom: 20px;
+    }
+
+    .linkedin-link {
+        bottom: 10px;
+        right: 10px;
+        width: 28px;
+        height: 28px;
+    }
+
+    a.nav-brand {
+        width: 180px;
+    }
+
+    .mobile-logo-tagline {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 120%;
+        letter-spacing: -0.08px;
+        opacity: .6;
+        margin-top: 4px;
+    }
+
+    body .f-links li a {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.005em;
+    }
+
+    body footer {
+        padding: 60px 0 44px;
+    }
+
+    .value-box h4 {
+        margin: 32px 0 18px;
+    }
+
+    /* Resources Page */
+    body .resource-page section {
+        margin: 100px 0;
+    }
+
+    body .resource-page .sub-bnr {
+        background-position: right;
+        padding: 112px 0;
+    }
+
+    body .resource-page .sub-bnr .o-6 {
+        opacity: 0.9 !important;
+    }
+
+    body .resource-page section.conselling {
+        margin: 92px 0 147px;
+    }
+
+    .hoding-content h1.f-48 {
+        margin-bottom: 14px !important;
+    }
+
+    .conselling .slick-list {
+        padding: 8px 0 0;
+    }
+
+    .conselling .career-img {
+        height: 343px;
+    }
+
+    .conselling .career-img img {
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: scale-down;
+    }
+
+    body .resource-page section.conselling .slick-dots {
+        bottom: -50px;
+    }
+
+    .career-img+h3 {
+        margin: 33px 0 27px;
+    }
+
+    body .conselling .slick-arrow {
+        bottom: 144px;
+        transform: none;
+        background: url(/prev-slick1.svg);
+        z-index: 1;
+        width: 32px;
+        height: 32px;
+        background-size: contain !important;
+    }
+
+    body .conselling .slick-arrow:hover,
+    body .conselling .slick-arrow:focus {
+        background: url(/prev-slick1.svg);
+    }
+
+    body .conselling .slick-arrow.slick-prev {
+        left: 0;
+    }
+
+    body .conselling .slick-arrow.slick-next {
+        transform: rotate(-180deg);
+    }
+
+    body .f-48 {
+        font-size: 32px !important;
+        line-height: 38.4px !important;
+    }
+
+    .custom-acco .accordion-body .career-img {
+        margin-top: 30px;
+        display: block !important;
+    }
+
+    .how-works .accordion {
+        padding-left: 0 !important;
+    }
+
+    body .how-works .custom-acco .accordion-button {
+        padding: 0 32px 0 30px !important;
+    }
+
+    .how-works .accordion-item {
+        border: 0 !important;
+    }
+
+    .how-works .accordion-item::before {
+        left: 0 !important;
+    }
+
+    .how-works .accordion-item:not(:last-child):after {
+        content: "";
+        width: calc(100% - 30px);
+        display: block;
+        height: 1px;
+        background-color: rgb(0 0 0 / 10%);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .custom-acco .accordion-body p:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    .how-works .accordion-body .career-img {
+        padding: 0 30px 0 30px;
+        height: 310px;
+    }
+
+    .how-works  .career-img img {
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: contain;
+    }
+
+    .actions-block .search-input {
+        width: 100% !important;
+    }
+
+    .career-experts .slick-list,
+    .difference .slick-list {
+        padding: 0;
+    }
+
+    .career-experts .slick-dots {
+        bottom: -22px;
+    }
+
+    .difference .slick-dots {
+        bottom: -58px;
+    }
+
+    .career-experts,
+    .difference {
+        padding-bottom: 20px;
+    }
+
+    .f-45 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .join-btn {
+        padding: 14px 0;
+    }
+
+    .career-experts .team-info {
+        padding-top: 13px !important;
+        margin-top: 0 !important;
+    }
+
+    .career-experts h6.f-16 {
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px !important;
+        letter-spacing: -0.04em !important;
+    }
+
+    .career-experts .f-14 {
+        font-family: "Sora", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px !important;
+        letter-spacing: -0.04em !important;
+    }
+
+    .difference .value-box h4 {
+        margin: 24px 0 10px;
+    }
+
+    body .how-works .custom-acco .accordion-button {
+        padding-right: 30px;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.04em;
+    }
+
+    body .how-works .custom-acco .accordion-button::after {
+        position: relative;
+        right: -30px;
+    }
+
+    .how-works .custom-acco .accordion-button {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.04em;
+        padding-right: 50px;
+    }
+
+    .career-experts .member-info {
+        margin-bottom: 20px;
+    }
+
+    .difference .v-icon {
+        width: 92px;
+        height: 92px;
+        display: block;
+    }
+
+    .custom-acco .accordion-item:last-child {
+        border-bottom: 1px solid rgb(0 0 0 / 10%);
+        margin-bottom: 16px;
+        padding-bottom: 26px;
+    }
+
+    body .discovery-block {
+        padding: 80px 0 0;
+    }
+
+    .offcanvas.offcanvas-top.menu-nav {
+        background: #FCEB00 !important;
+    }
+
+    .navbar-nav {
+        gap: 0;
+    }
+
+    .offcanvas .nav-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .offcanvas .nav-item .nav-link {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.045em;
+        padding: 0;
+        color: #000000;
+        opacity: 1;
+    }
+
+    .offcanvas .navbar-nav-scroll {
+        margin-bottom: 100px !important;
+        max-height: none !important;
+        overflow: hidden;
+        gap: 0 !important;
+    }
+
+    .offcanvas-header .btn-close {
+        opacity: 1;
+    }
+
+    .offcanvas-header .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+    ul.gap-3 li:not(:last-child) {
+        margin-right: 22px;
+    }
+
+    ul.gap-3 li a {
+        display: block;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    ul.gap-3 li img.next-img {
+        object-fit: cover !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    ul.gap-3 li:last-child a {
+        height: 28px !important;
+        width: 28px !important;
+    }
+
+    .menu-nav .f-12 {
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 14.4px !important;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: .7;
+    }
+
+    .menu-nav .offcanvas-body {
+        /* padding-bottom: 36px; */
+        padding-bottom: 140px;
+        padding-top: 74px;
+    }
+
+    .menu-nav .f-12 {
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 14.4px !important;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: .7;
+    }
+
+    .menu-nav .f-20 {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        line-height: 24px !important;
+        letter-spacing: -0.045em !important;
+        color: #000000 !important;
+    }
+
+    .gap-3 {
+        gap: 36px;
+    }
+
+    .our-team .slick-slider {
+        margin-top: 16px;
+    }
+
+    body .our-team .slick-dots {
+        bottom: -18px;
+    }
+
+    section.for-students {
+        margin-top: 98px;
+    }
+
+    .mt-7 {
+        margin-top: 36px !important;
+    }
+
+    .f-32 {
+        font-size: 21px;
+        line-height: 25.2px;
+        letter-spacing: -0.05em;
+    }
+
+    .container {
+        padding: 0 20px !important;
+    }
+
+    .our-values .gy-5 {
+        --bs-gutter-y: 40px;
+    }
+
+    .f-27 {
+        font-size: 18px;
+        line-height: 21.6px;
+        letter-spacing: -0.04em;
+    }
+
+    .value-box h4 {
+        margin: 32px 0 18px;
+    }
+
+    .v-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .our-mission .f-48 {
+        font-size: 40px !important;
+        line-height: 48px !important;
+        letter-spacing: -0.055em !important;
+    }
+
+    .our-story {
+        margin: 75px 0;
+    }
+
+    .f-24 {
+        font-size: 16px !important;
+        line-height: 19.2px !important;
+    }
+
+    .our-team {
+        margin: 75px 0 0;
+    }
+
+    .for-students {
+        margin: 100px 0 70px;
+    }
+
+    body .f-18 {
+        line-height: 24px !important;
+        font-size: 16px !important;
+    }
+
+    body .conselling .f-18 {
+        line-height: 27px !important;
+        font-size: 18px !important;
+    }
+
+    .faq-content .custom-acco .accordion-button::after {
+        right: -50px;
+        position: relative;
+    }
+
+    body .faq-content .custom-acco .accordion-button {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -0.05em;
+        padding-right: 50px;
+    }
+
+    .how-works .accordion-item::before {
+        font-size: 18px !important;
+        line-height: 27px !important;
+        top: 2px !important;
+    }
+
+    section.how-works {
+        margin-bottom: 57px !important;
+    }
+
+    section.our-members {
+        margin-top: 0 !important;
+    }
+
+    .member-block .f-16 {
+        font-size: 14px;
+        line-height: 21px;
+        color: #6D6D6D !important;
+        margin-bottom: 50px;
+    }
+
+    .our-members .slick-list {
+        padding-bottom: 0 !important;
+    }
+
+    section.faq-content {
+        margin-top: 150px !important;
+    }
+
+    .discovery-block .f-45 {
+        letter-spacing: -0.055em !important;
+        line-height: 38px !important;
+        font-size: 32px !important;
+    }
+
+    body a.nav-brand {
+        width: 180px;
+        position: relative;
+        left: -5px;
+    }
+
+
+    body .mobile-logo-tagline {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 120%;
+        letter-spacing: -0.08px;
+        opacity: .6;
+    }
+
+    body .join-waitlist .modal-body .col-lg-6:first-child,
+    body .join-waitlist .modal-body .col-lg-6 .form-main {
+        padding-top: 0 !important;
+    }
+
+    .me-8 {
+        margin-right: 19px !important;
+    }
+
+    .disc2-img {
+        padding-right: 0px !important;
+    }
+
+    .landing-page .text-80.t1-clr {
+        letter-spacing: -0.04em;
+    }
+    
+}
+
+
+
+@media(max-width: 767.98px) {
+
+    .h-300 {
+        height: 231px !important;
+    }
+
+    body .f-links li:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .social-links li a {
+        width: 32px !important;
+        height: 32px !important;
+        display: block;
+    }
+
+    .social-links li a img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .social-links li:nth-child(3) a {
+        width: 46px !important;
+        height: 50px !important;
+    }
+
+    .site-footer h3.f-20 {
+        font-weight: 300 !important;
+    }
+
+    body .explore-job .common-btn {
+        width: 180px;
+        padding: 15px 0;
+    }
+
+    .member-img {
+        height: 170px !important;
+    }
+
+    .search-input.flex-column .btn-two {
+        margin-top: 20px;
+        border-radius: 38px !important;
+        padding: 10.5px 0 !important;
+        width: 156px !important;
+        font-size: 14px !important;
+    }
+
+    .search-input.flex-column .form-control {
+        border-bottom-right-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .conselling p.f-16.ltr-4.gry-txt {
+        height: 120px;
+    }
+
+    .offcanvas-header .navbar-brand {
+        display: block;
+        height: 40px;
+    }
+
+    body .navbar-brand {
+        height: 40px !important;
+        display: block;
+    }
+
+    .difference .value-box {
+        text-align: center;
+    }
+
+    .discovery-block .next-img {
+        width: 100% !important;
+    }
+
+    .demand-img {
+        position: relative;
+        right: -10px;
+    }
+
+
+}
+
+@media(max-width: 576.98px) {
+    .h-300 {
+        height: 248px !important;
+    }
+
+    .post2 {
+        height: 231px !important;
+    }
+
+    .select-opt .css-13cymwt-control {
+        background: #2D221E !important;
+    }
+
+}
+
+@media(max-width: 375.98px) {
+    .our-team .h-300 {
+        height: 231px !important;
+    }
+
+    .h-300 {
+        height: 231px !important;
+    }
+
+    .lbs-top {
+        margin-top: 15px !important;
+    }
+}
+
+
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+    .home-hero {
+        background-image: url(/h-mobile.png);
+    }
+
+    .landing-page .home-hero {
+        background-image: url(/home-m.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .resource-page .sub-bnr {
+        background-image: url(/m-sub.png);
+        padding: 50px 0;
+        height: 698px;
+        display: flex;
+        align-items: center;
+    }
+
+    body .actions-block {
+        background-image: url(/action-m.png);
+        min-height: 475px;
+        padding: 50px 0;
+    }
+
+
+    /* .resource-page .actions-block {
+        background-image: url(/frme1.svg);
+    } */
+
+
+    body .join-waitlist .modal-content {
+        background-image: url(/join-mobile.png);
+        background-position: top left;
+        background-size: cover;
+    }
+
+    .form-main.bg-black.h-100 {
+        background: transparent !important;
+        padding: 0 24px 70px;
+    }
+
+    .how-works .f-48 {
+        width: 90%;
+    }
+
+    .actions-block .f-48.ltr-5+p {
+        /* width: 60%; */
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    .our-team .f-40.ltr-5.text-black {
+        width: 330px;
+    }
+
+    .our-mission .f-48 {
+        letter-spacing: 0 !important;
+        margin: 10px auto 20px;
+        width: 320px;
+    }
+
+    .our-values .f-29 {
+        width: 94%;
+    }
+
+    .conselling h1.f-48 {
+        max-width: 320px;
+    }
+
+    .how-works h1.f-48 {
+        max-width: 320px;
+    }
+
+    .resources-page .sub-bnr h1 {
+        max-width: 360px;
+    }
+
+    .discovery-block .f-45 {
+        width: 320px;
+        margin: auto;
+    }
+    body .discovery-block {
+        background: url(/home/cta-mobile.png);
+        background-size: cover;
+    }
+
+}

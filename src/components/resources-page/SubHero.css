@@ -1,0 +1,36 @@
+.sub-bnr {
+    background: url(/hero-two.png) no-repeat left top;
+    background-size: cover;
+    /* height: calc(100vh - 86px); */
+    /* height: 100vh; */
+    padding: 215px 0 180px;
+}
+
+.search-input .btn-two {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
+.search-input .form-control::-webkit-input-placeholder {
+    /* Chrome */
+    color: rgb(0 0 0 / 30%);
+}
+
+.search-input .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgb(0 0 0 / 30%);
+}
+
+.search-input .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(0 0 0 / 30%);
+    opacity: 1;
+}
+
+.search-input .form-control:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: rgb(0 0 0 / 30%);
+    opacity: 1;
+}
